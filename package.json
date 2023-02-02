@@ -3,11 +3,12 @@
   "version": "0.0.1",
   "description": "Practica 3: Chat Multicast SocketIO",
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.16.4",
     "socket.io": "^2.2.0",
     "socketio-file-upload": "^0.7.0"
   },
   "engines": {
- "node": "8.4.0"
- }
+    "node": "8.4.0"
+  }
 }
