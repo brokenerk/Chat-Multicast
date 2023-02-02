@@ -1,3 +1,3 @@
-# chatMulticast
+# Chat Multicast
 Chat sencillo implementado con SocketIO
-Pruebalo aquí: https://chat-multicast.herokuapp.com/
+Pruebalo aquí: https://com-piler.up.railway.app/
