@@ -3,6 +3,8 @@ var app = express();
 var server = require("http").Server(app); //Servidor
 var io = require("socket.io")(server); //SocketIO
 var siofu = require("socketio-file-upload"); //SocketIO File Uploader
+var dotenv = require('dotenv');
+dotenv.config();
 
 // Construye el HTML del cliente
 app.use(express.static(__dirname + "/public"));
@@ -21,7 +23,7 @@ app.get('/privado', function(req, res) {
 });
 
 server.listen(process.env.PORT || 3003, () => {
- console.log("Servidor iniciado en localhost:3003");
+ console.log("Servidor iniciado...");
 });
 
 var usersOnline = [];

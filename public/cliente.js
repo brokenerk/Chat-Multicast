@@ -1,6 +1,6 @@
 $(function () {
-  //var rootPath = "https://chat-multicast.herokuapp.com/";
-  var rootPath = "http://localhost:3003/";
+  //var rootPath = "https://localhost:3003/";
+  var rootPath = "https://chat-multicast.up.railway.app/";
   var socket = io();
   // ---------------------- SUBIR ARCHIVOS
   var uploader = new SocketIOFileUpload(socket);
