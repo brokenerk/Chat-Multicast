@@ -2,4 +2,4 @@
 
 Chat sencillo implementado con SocketIO
 
-Pruebalo aquí: https://com-piler.up.railway.app/
+Pruebalo aquí: https://chat-multicast.up.railway.app/
